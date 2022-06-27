@@ -8,4 +8,4 @@
 - Cada asignatura tendrá un aula asignada, que se identifica mediante el número de edificio y el número de aula. Los números de aulas se pueden repetir entre edificios
 
 
-_Entregar: modelo entidad relación_ 
+_Entregar: modelo entidad relación (draw.io o similares)_ 

@@ -11,4 +11,13 @@ Se divide en dos partes:
 
 El objetivo es resolver, en X horas, todos los ejercicios y enviarlos de la siguiente forma:
 
-**TODO**
+- **Bases de Datos:** Entregar el diagrama realizado (indicar la herramienta usada)
+- **Programación**: 
+  - Ejercicio 1: archivo txt con las respuestas elegidas.
+  - Ejercicio 2: clase Search.java
+  - Ejercicio 3: clase Producto.java y método main utilizado (puede estar todo en el mismo archivo o por separado).
+  - Ejercicio 4: clases creadas y main utilizado.
+
+
+Comprimir todo en un archivo `.zip` nombrarlo de la siguiente forma: `INICIALES-LandraEjercicios2022.zip`. Ejemplo: `ISL-LandraEjercicios2022.zip`
+
