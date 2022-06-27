@@ -21,3 +21,5 @@ El objetivo es resolver todos los ejercicios y enviarlos de la siguiente forma:
 
 Comprimir todo en un archivo `.zip` nombrarlo de la siguiente forma: `INICIALES-LandraEjercicios2022.zip`. Ejemplo: `ISL-LandraEjercicios2022.zip`
 
+Enviar el archivo `.zip` adjunto, por correo electrónico a soporte@landrasistemas.es
+
