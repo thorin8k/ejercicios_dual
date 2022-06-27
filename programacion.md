@@ -2,13 +2,13 @@
 ## 1. Dada la siguiente estructura de clases:
 
 ``` java
-public class Cache {}
+public class Office {}
 
-public class DiskCache extends Cache {}
+public class LandraOffice extends Office {}
 
-public class MemoryCache extends Cache {}
+public class RocheOffice extends Office {}
 
-public class OptimizedDiskCache extends DiskCache {}
+public class OptimizedLandraOffice extends LandraOffice {}
 ```
 
 
@@ -17,40 +17,40 @@ Marca, de las siguientes respuestas, aquellas que al ejecutarlas provocarían un
 
 a. 
 ``` java
-OptimizedDiskCache optimizedDiskCache = new OptimizedDiskCache();
-Cache cache = (Cache) optimizedDiskCache;
+OptimizedLandraOffice optimizedLandraOffice = new OptimizedLandraOffice();
+Office office = (Office) optimizedLandraOffice;
 ```
 
 b. 
 ``` java
-MemoryCache memoryCache = new MemoryCache();
-Cache cache = (Cache) memoryCache;
-DiskCache diskCache = (DiskCache) cache;
+RocheOffice rocheOffice = new RocheOffice();
+Office office = (Office) rocheOffice;
+LandraOffice landraOffice = (LandraOffice) office;
 ```
 
 c.
 ``` java
-DiskCache diskCache = new DiskCache();
-OptimizedDiskCache optimizedDiskCache = (OptimizedDiskCache) diskCache;
+LandraOffice landraOffice = new LandraOffice();
+OptimizedLandraOffice optimizedLandraOffice = (OptimizedLandraOffice) landraOffice;
 ```
 
 d.
 ``` java
-OptimizedDiskCache optimizedDiskCache = new OptimizedDiskCache();
-DiskCache diskCache = (DiskCache) optimizedDiskCache;
+OptimizedLandraOffice optimizedLandraOffice = new OptimizedLandraOffice();
+LandraOffice landraOffice = (LandraOffice) optimizedLandraOffice;
 ```
 
 e.
 ``` java
-Cache cache = new Cache();
-MemoryCache memoryCache = (MemoryCache) cache;
+Office office = new Office();
+RocheOffice rocheOffice = (RocheOffice) office;
 ```
 
 f.
 ``` java
-OptimizedDiskCache optimizedDiskCache = new OptimizedDiskCache();
-Cache cache = (Cache) optimizedDiskCache;
-DiskCache diskCache = (DiskCache) cache;
+OptimizedLandraOffice optimizedLandraOffice = new OptimizedLandraOffice();
+Office office = (Office) optimizedLandraOffice;
+LandraOffice landraOffice = (LandraOffice) office;
 ```
 
 
@@ -62,18 +62,18 @@ DiskCache diskCache = (DiskCache) cache;
 
 Ejemplo: 
 
-*Ejemplo, SortedSearch.countNumbers(new int[] { 1, 3, 5, 7 }, 4) debería devolver 2 ya que solo hay dos elementos que sean menores que 4.*
+*Ejemplo, Search.count(new int[] { 1, 3, 5, 7 }, 4) debería devolver 2 ya que solo hay dos elementos que sean menores que 4.*
 
 Estructura de la clase:
 
 ``` java
-public class SortedSearch {
-    public static int countNumbers(int[] sortedArray, int lessThan) {
+public class Search {
+    public static int count(int[] array, int lesserThan) {
         //resolver aqui
     }
     
     public static void main(String[] args) {
-        System.out.println(SortedSearch.countNumbers(new int[] { 1, 3, 5, 7 }, 4));
+        System.out.println(Search.count(new int[] { 1, 3, 5, 8 }, 4));
     }
 }
 
