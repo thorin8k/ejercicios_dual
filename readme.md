@@ -9,7 +9,7 @@ Se divide en dos partes:
 
 
 
-El objetivo es resolver, en X horas, todos los ejercicios y enviarlos de la siguiente forma:
+El objetivo es resolver todos los ejercicios y enviarlos de la siguiente forma:
 
 - **Bases de Datos:** Entregar el diagrama realizado (indicar la herramienta usada)
 - **Programación**: 
