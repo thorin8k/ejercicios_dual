@@ -55,7 +55,7 @@ LandraOffice landraOffice = (LandraOffice) office;
 
 
 
-## 2. Implementa la función `countNumbers` para que:
+## 2. Implementa la función `count` para que:
 - Acepte una lista ordenada de números únicos 
 - cuente cuantos elementos de la lista son menores que el parámetro recibido.
 
