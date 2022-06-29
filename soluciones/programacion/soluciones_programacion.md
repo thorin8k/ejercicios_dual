@@ -14,7 +14,7 @@ public class Search {
             if (array[i] < lesserThan) {
                 count++;
             } else {
-                break;
+                break; // <- Mejora mucho el tiempo de procesado
             }
         }
         return count;
