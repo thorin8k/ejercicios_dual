@@ -1,5 +1,5 @@
 # 1. Lanzarán `RuntimeException` las opciones: 
-a,b,e
+b,c,e
 
 
 # 2. Código `sortedSearch`
